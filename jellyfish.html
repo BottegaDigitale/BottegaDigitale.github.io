@@ -50,51 +50,41 @@
 
       <div class="fluid-container">
 
-        <div class="row">
-          <div class="col-md-4 col-sm-12" style="height:400px">
-           <iframe width="100%" height="400px" frameborder="0" seamless="seamless" scrolling="yes" src="https://plot.ly/~bottegadigitale/480.embed?height=400px" ></iframe> 
-          </div>
-          <div class="col-md-4  col-sm-12">
-          <iframe width="100%" height="400px" frameborder="0" seamless="seamless" scrolling="yes" src="https://plot.ly/~bottegadigitale/509.embed?height=400px" ></iframe> 
-        </div>
-          <div class="col-md-4  col-sm-12">
-          <iframe width="100%" height="400px" frameborder="0" seamless="seamless" scrolling="yes" src="https://plot.ly/~bottegadigitale/521.embed?height=400px" ></iframe> </div>
-        </div>
+        <div role="tabpanel">
 
-        <div class="row">
-          <div class="col-md-4 col-sm-12" style="height:400px">
-           <iframe width="100%" height="400px" frameborder="0" seamless="seamless" scrolling="yes" src="https://plot.ly/~bottegadigitale/545.embed?height=400px" ></iframe> 
-          </div>
-          <div class="col-md-4  col-sm-12">
-          <iframe width="100%" height="400px" frameborder="0" seamless="seamless" scrolling="yes" src="https://plot.ly/~bottegadigitale/546.embed?height=400px" ></iframe> 
-        </div>
-          <div class="col-md-4  col-sm-12">
-          <iframe width="100%" height="400px" frameborder="0" seamless="seamless" scrolling="yes" src="https://plot.ly/~bottegadigitale/547.embed?height=400px" ></iframe> </div>
-        </div>
+          <!-- Nav tabs -->
+          <ul class="nav nav-tabs" role="tablist">
+            <li role="presentation" class="active"><a href="#temp1" aria-controls="temp1" role="tab" data-toggle="tab">Temperature 1</a></li>
+            <li role="presentation"><a href="#temp2" aria-controls="temp2" role="tab" data-toggle="tab">Temperature 2</a></li>
+            <li role="presentation"><a href="#temp3" aria-controls="temp3" role="tab" data-toggle="tab">Temperature 3</a></li>
+            <li role="presentation"><a href="#hum1" aria-controls="hum1" role="tab" data-toggle="tab">Humidity 1</a></li>
+            <li role="presentation"><a href="#hum2" aria-controls="hum2" role="tab" data-toggle="tab">Humidity 2</a></li>
+            <li role="presentation"><a href="#hum3" aria-controls="hum3" role="tab" data-toggle="tab">Humidity 3</a></li>
+            <li role="presentation"><a href="#flux1" aria-controls="flux1" role="tab" data-toggle="tab">Flux 1</a></li>
+            <li role="presentation"><a href="#flux2" aria-controls="flux2" role="tab" data-toggle="tab">Flux 2</a></li>
+            <li role="presentation"><a href="#wind1" aria-controls="wind1" role="tab" data-toggle="tab">Wind velocity</a></li>
+            <li role="presentation"><a href="#wind2" aria-controls="wind2" role="tab" data-toggle="tab">Wind direction</a></li>
+            <li role="presentation"><a href="#rain" aria-controls="rain" role="tab" data-toggle="tab">Rain</a></li>
+            <li role="presentation"><a href="#pres" aria-controls="pres" role="tab" data-toggle="tab">Pression</a></li>
+          </ul>
 
-        <div class="row">
-          <div class="col-md-4 col-sm-12" style="height:400px">
-           <iframe width="100%" height="400px" frameborder="0" seamless="seamless" scrolling="yes" src="https://plot.ly/~bottegadigitale/548.embed?height=400px" ></iframe> 
+          <!-- Tab panes -->
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane active" id="temp1"><iframe width="100%" height="400px" frameborder="0" seamless="seamless" scrolling="yes" src="https://plot.ly/~bottegadigitale/480.embed?height=400px"></iframe></div>
+            <div role="tabpanel" class="tab-pane" id="temp2"><iframe width="100%" height="400px" frameborder="0" seamless="seamless" scrolling="yes" src="https://plot.ly/~bottegadigitale/509.embed?height=400px"></iframe></div>
+            <div role="tabpanel" class="tab-pane" id="temp3"><iframe width="100%" height="400px" frameborder="0" seamless="seamless" scrolling="yes" src="https://plot.ly/~bottegadigitale/521.embed?height=400px"></iframe></div>
+            <div role="tabpanel" class="tab-pane" id="hum1"><iframe width="100%" height="400px" frameborder="0" seamless="seamless" scrolling="yes" src="https://plot.ly/~bottegadigitale/545.embed?height=400px"></iframe></div>
+            <div role="tabpanel" class="tab-pane" id="hum2"><iframe width="100%" height="400px" frameborder="0" seamless="seamless" scrolling="yes" src="https://plot.ly/~bottegadigitale/546.embed?height=400px"></iframe></div>
+            <div role="tabpanel" class="tab-pane" id="hum3"><iframe width="100%" height="400px" frameborder="0" seamless="seamless" scrolling="yes" src="https://plot.ly/~bottegadigitale/547.embed?height=400px"></iframe></div>
+            <div role="tabpanel" class="tab-pane" id="flux1"><iframe width="100%" height="400px" frameborder="0" seamless="seamless" scrolling="yes" src="https://plot.ly/~bottegadigitale/548.embed?height=400px"></iframe></div>
+            <div role="tabpanel" class="tab-pane" id="flux2"><iframe width="100%" height="400px" frameborder="0" seamless="seamless" scrolling="yes" src="https://plot.ly/~bottegadigitale/549.embed?height=400px"></iframe></div>
+            <div role="tabpanel" class="tab-pane" id="wind1"><iframe width="100%" height="400px" frameborder="0" seamless="seamless" scrolling="yes" src="https://plot.ly/~bottegadigitale/550.embed?height=400px"></iframe></div>
+            <div role="tabpanel" class="tab-pane" id="wind2"><iframe width="100%" height="400px" frameborder="0" seamless="seamless" scrolling="yes" src="https://plot.ly/~bottegadigitale/551.embed?height=400px"></iframe></div>
+            <div role="tabpanel" class="tab-pane" id="rain"><iframe width="100%" height="400px" frameborder="0" seamless="seamless" scrolling="yes" src="https://plot.ly/~bottegadigitale/552.embed?height=400px"></iframe></div>
+            <div role="tabpanel" class="tab-pane" id="pres"><iframe width="100%" height="400px" frameborder="0" seamless="seamless" scrolling="yes" src="https://plot.ly/~bottegadigitale/553.embed?height=400px"></iframe></div>
           </div>
-          <div class="col-md-4  col-sm-12">
-          <iframe width="100%" height="400px" frameborder="0" seamless="seamless" scrolling="yes" src="https://plot.ly/~bottegadigitale/549.embed?height=400px" ></iframe> 
         </div>
-          <div class="col-md-4  col-sm-12">
-          <iframe width="100%" height="400px" frameborder="0" seamless="seamless" scrolling="yes" src="https://plot.ly/~bottegadigitale/550.embed?height=400px" ></iframe> </div>
-        </div>
-
-        <div class="row">
-          <div class="col-md-4 col-sm-12" style="height:400px">
-           <iframe width="100%" height="400px" frameborder="0" seamless="seamless" scrolling="yes" src="https://plot.ly/~bottegadigitale/551.embed?height=400px" ></iframe> 
-          </div>
-          <div class="col-md-4  col-sm-12">
-          <iframe width="100%" height="400px" frameborder="0" seamless="seamless" scrolling="yes" src="https://plot.ly/~bottegadigitale/552.embed?height=400px" ></iframe> 
-        </div>
-          <div class="col-md-4  col-sm-12">
-          <iframe width="100%" height="400px" frameborder="0" seamless="seamless" scrolling="yes" src="https://plot.ly/~bottegadigitale/553.embed?height=400px" ></iframe> </div>
-        </div>
-      </div>
-    </div> <!-- /container -->
+      </div> <!-- /container -->
 
 
     <!-- Bootstrap core JavaScript
